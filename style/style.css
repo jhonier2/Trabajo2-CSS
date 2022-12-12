@@ -306,40 +306,6 @@ table.steelBlueCols{
     column-gap: 3rem;
     row-gap: 1rem;
 }
-.tarjeta-vg1{
-    position: absolute;
-    bottom: 30%;
-    left: 25%;
-    background: url(../img/pull-push-leg_img.jpg) center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-height: 400px;
-    max-width: 400px;
-    height: 100%;
-    width: 100%;
-    border-radius: 6px;
-    padding: 1rem .5rem;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
-.tarjeta-vg2{
-    position: absolute;
-    bottom: 30%;
-    right: 30%;
-    background: url(../img/full-body_img.jpg) center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-height: 400px;
-    max-width: 400px;
-    height: 100%;
-    width: 100%;
-    border-radius: 6px;
-    padding: 1rem .5rem;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
 .wrap-text_tarjeta-vg{
     color: #fff;
     text-align: center;
