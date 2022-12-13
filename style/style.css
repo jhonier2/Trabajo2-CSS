@@ -3,7 +3,6 @@
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
-
 }
 
 
@@ -90,7 +89,6 @@ li.menu-item a:hover{
 .main-body-item{
     position: relative;
     float: left;
-    width: 100%;
 }
 
 .main-caption {
