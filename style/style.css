@@ -39,12 +39,6 @@ header.main-header{
     padding: 1rem;
     background: rgba(255, 255, 255, 0);
 }
-   
-.wrap-logo-header{
-    display: flex;
-    align-items: center;
-    flex-basis: 15%;
-}
 
 .gym-logo-header{
     position: relative;
