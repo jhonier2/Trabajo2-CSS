@@ -13,3 +13,72 @@ img[src="../img/GymLife-icon.png"] {
 #header-fijo{
     width: 1244px;
 }
+  i.toggle-menu{
+    display: none;
+    background-color: #fff;
+    border: none;
+    z-index: 9999;
+  }
+   
+  i.toggle-menu img{
+    width: 30px;
+    z-index: 99;
+  }
+   
+  input#check{
+    display: none;
+  }
+  @media (min-width:880px){
+    .header-wrap{
+      padding: .5rem 5rem;
+    }
+  }
+   
+  @media (max-width:768px){
+    header{
+      margin-bottom: 4rem;
+    }
+    .header-wrap{
+      position: fixed;
+      width: 100%;
+      padding: 0;
+      top: 0;
+      z-index: 9999;
+    }
+    .wrap-logo-header{
+      position: fixed;
+      z-index: 999;
+      top: 3%;
+      left: 3%;
+    }
+    i.toggle-menu{
+      display: flex;
+    }
+    ul.main-menu,#nav-main-contact{
+      display: none;
+      left: 0;
+      margin: 0;
+      padding: 0;
+    }
+    ul.main-menu{
+      position: fixed;
+      background: rgb(20, 20, 20);
+    }
+    label.checkbtn{
+      position: fixed;
+      right: 3%;
+      top: 3%;
+      z-index: 9999;
+    }
+    #check:checked ~ ul{
+      display: flex;
+      z-index: 9;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      top: 0;
+      font-size: 2rem;
+    }
+   
+  }
