@@ -13,28 +13,28 @@ img[src="../img/GymLife-icon.png"] {
 #header-fijo{
     width: 1244px;
 }
-  i.toggle-menu{
+i.toggle-menu{
     display: none;
     background-color: #fff;
     border: none;
     z-index: 9999;
-  }
+}
    
-  i.toggle-menu img{
+i.toggle-menu img{
     width: 30px;
     z-index: 99;
-  }
+}
    
-  input#check{
+input#check{
     display: none;
-  }
-  @media (min-width:880px){
+}
+@media (min-width:880px){
     .header-wrap{
       padding: .5rem 5rem;
     }
-  }
+}
    
-  @media (max-width:768px){
+@media (max-width:768px){
     header{
       margin-bottom: 4rem;
     }
@@ -81,4 +81,8 @@ img[src="../img/GymLife-icon.png"] {
       font-size: 2rem;
     }
    
-  }
+}
+
+#item2{
+    flex: 0 0 20%;
+}
