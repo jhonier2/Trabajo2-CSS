@@ -190,8 +190,13 @@ li.menu-item a:hover{
 }
 
 h4::first-letter{
-    font-size: 2rem; 
+    text-decoration: underline;
+    font-size: 1.5rem; 
     color: #d90b0b;
+}
+
+h4::first-line{
+    text-decoration: underline;
 }
   
 .controls{
