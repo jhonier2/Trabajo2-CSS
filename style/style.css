@@ -276,10 +276,8 @@ h4::first-line{
 
 th:nth-child(odd){
     background-color: #222121;
-    
+
 }
-
-
 
 table.steelBlueCols{
     border: 4px solid #700404;
