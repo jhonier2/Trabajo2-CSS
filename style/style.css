@@ -96,6 +96,14 @@ ul:nth-last-of-type(1){
     background-color: #423e3e84;
 }
 
+p:empty{
+    background: #3b3a3ab9;
+    padding: 0.3%  0.5%;
+    box-shadow: rgba(131, 24, 24, 0.37) 5px 2px 8px;
+    text-align: center;
+    border-radius: 3px;
+}
+
 .main-caption {
     top: 0;
     left: 0;
