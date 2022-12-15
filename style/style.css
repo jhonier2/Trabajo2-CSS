@@ -68,10 +68,18 @@ li.menu-item{
     color: #fff;
     border-color: #fff;
 }
+
+ul li:first-child a{
+    color: red;
+}
+
+ul li:last-child a{
+    color: gold;
+}
    
 li.menu-item a{
     padding: .5rem 1rem;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
