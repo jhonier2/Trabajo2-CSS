@@ -136,7 +136,6 @@ p:empty{
     text-transform: capitalize;
     margin: 0;
     font-size: 1.75rem;
-    background: rgba(117, 2, 2, 0.322);
     padding: 1rem;
     text-shadow: #000 0 4px 2px;
 }
