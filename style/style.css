@@ -118,6 +118,11 @@ p:empty{
     
 }
 
+.main-caption + h3,a{
+    background-color: #3934346b;
+    font-size: 1.5rem;
+}
+
 .main-label{
     display: flex;
     flex-direction: column;
@@ -158,12 +163,10 @@ p:empty{
     text-align: center;
     vertical-align: middle;
     user-select: none;
-    background-color: transparent;
     border: 2px solid;
     cursor: alias;
 
     padding: 0.5rem 1rem;
-    font-size: 1.25rem;
     line-height: 1.5;
     border-radius: 0;
 
