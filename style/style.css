@@ -99,7 +99,7 @@ ul:nth-last-of-type(1){
 p:empty{
     background: #3b3a3ab9;
     padding: 0.3%  0.5%;
-    box-shadow: rgba(131, 24, 24, 0.37) 5px 2px 8px;
+    box-shadow: #8318185e 5px 2px 8px;
     text-align: center;
     border-radius: 3px;
 }
@@ -110,6 +110,12 @@ p:empty{
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.3);
+}
+
+.main-caption >h2{
+    background-color: #3934346b;
+    box-shadow: #000000a7 5px 2px 8px;
+    
 }
 
 .main-label{
